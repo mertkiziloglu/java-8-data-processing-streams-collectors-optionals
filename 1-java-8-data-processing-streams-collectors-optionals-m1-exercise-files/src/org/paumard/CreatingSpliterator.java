@@ -16,7 +16,7 @@ public class CreatingSpliterator {
 
     public static void main(String[] args) {
         
-        Path path = Paths.get("files/people.txt");
+        Path path = Paths.get("C:\\Users\\Mert\\Downloads\\java-8-data-processing-streams-collectors-optionals\\1-java-8-data-processing-streams-collectors-optionals-m1-exercise-files\\files\\people.txt");
         
         try (Stream<String> lines = Files.lines(path);) {
             
